@@ -1,4 +1,4 @@
-﻿---
+---
 title: لتعليمات المستضافة عبر الإنترنت
 permalink: index.html
 layout: home
