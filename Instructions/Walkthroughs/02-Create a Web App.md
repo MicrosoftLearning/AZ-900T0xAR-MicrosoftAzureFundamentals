@@ -1,8 +1,31 @@
----
-wts:
-   title: '02 - إنشاء تطبيق ويب (10 دقائق)'
-   module: 'الوحدة 02 - خدمات Azure الأساسية (أحمال العمل)'
----
+<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
+    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
+  <thead>
+  <tr>
+  <th>wts</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div><table>
+  <thead>
+  <tr>
+  <th>title</th>
+  <th>module</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div>02 - إنشاء تطبيق ويب (10 دقائق)</div></td>
+  <td><div>الوحدة 02 - خدمات Azure الأساسية (أحمال العمل)</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
+       
 # 02- إنشاء تطبيق ويب
 
 في هذه المعاينة، سننشئ تطبيق ويب جديد يشغِّل حاوية Docker. تعرض الحاوية رسالة ترحيب. 
