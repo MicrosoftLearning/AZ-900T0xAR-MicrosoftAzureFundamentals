@@ -1,8 +1,31 @@
----
-wts:
-   title: '04 - إنشاء شبكة ظاهرية (20 دقيقة)'
-   module: 'الوحدة 02 - خدمات Azure الأساسية (أحمال العمل)'
----
+<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
+    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
+  <thead>
+  <tr>
+  <th>wts</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div><table>
+  <thead>
+  <tr>
+  <th>title</th>
+  <th>module</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div>04 - إنشاء شبكة ظاهرية (20 دقيقة)</div></td>
+  <td><div>الوحدة 02 - خدمات Azure الأساسية (أحمال العمل)</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
+       
 # 04 - إنشاء شبكة ظاهرية
 
 في هذه المعاينة، سننشئ شبكة ظاهرية، ونوزع جهازين ظاهريين على تلك الشبكة الظاهرية، ثم نسمح لجهاز ظاهري واحد بإجراء اختبار اتصال للآخر داخل تلك الشبكة الظاهرية.
