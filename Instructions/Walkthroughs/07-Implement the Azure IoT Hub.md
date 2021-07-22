@@ -1,8 +1,31 @@
----
-wts:
-   title: '07 - تنفيذ Azure IoT Hub (10 دقائق)'
-   module: 'الوحدة 03: وصف الحلول الأساسية وأدوات الإدارة'
----
+<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
+    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
+  <thead>
+  <tr>
+  <th>wts</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div><table>
+  <thead>
+  <tr>
+  <th>title</th>
+  <th>module</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div>07 - تنفيذ Azure IoT Hub (10 دقائق)</div></td>
+  <td><div>الوحدة 03: وصف الحلول الأساسية وأدوات الإدارة</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
+	    
 # 07 - تنفيذ Azure IoT Hub
 
 في هذه المعاينة، سنكوّن Azure IoT Hub جديد في مدخل Azure، ثم نصادق الاتصال بجهاز IoT باستخدام محاكي جهاز Raspberry Pi عبر الإنترنت. يتم تمرير بيانات الاستشعار والرسائل من محاكي Raspberry Pi إلى Azure IoT Hub، ويمكنك عرض مقاييس نشاط المراسلة في مدخل Azure.
