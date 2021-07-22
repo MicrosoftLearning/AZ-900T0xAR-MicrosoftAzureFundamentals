@@ -1,8 +1,31 @@
----
-wts:
-   title: '21 - حساب اتفاقيات مستوى الخدمة المركبة (5 دقائق)'
-   module: 'الوحدة 06: وصف إدارة التكاليف واتفاقيات مستوى الخدمة في Azure'
----
+<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
+    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
+  <thead>
+  <tr>
+  <th>wts</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div><table>
+  <thead>
+  <tr>
+  <th>title</th>
+  <th>module</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div>21 - حساب اتفاقيات مستوى الخدمة المركبة (5 دقائق)</div></td>
+  <td><div>الوحدة 06: وصف إدارة التكاليف واتفاقيات مستوى الخدمة في Azure</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
+       
 # 21 - حساب اتفاقيات مستوى الخدمة المركبة
 
 في هذه المعاينة، سنحدد مدى توفر اتفاقية مستوى الخدمة لخدمات Azure ثم نحسب التوفر المتوقع المستند إلى اتفاقية مستوى الخدمة المركبة للتطبيق.
