@@ -1,8 +1,31 @@
----
-wts:
-   title: '08 - تنفيذ وظيفة Azure Functions (5 دقائق)'
-   module: 'الوحدة 03: وصف الحلول الأساسية وأدوات الإدارة'
----
+<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
+    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
+  <thead>
+  <tr>
+  <th>wts</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div><table>
+  <thead>
+  <tr>
+  <th>title</th>
+  <th>module</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div>08 - تنفيذ وظيفة Azure Functions (5 دقائق)</div></td>
+  <td><div>الوحدة 03: وصف الحلول الأساسية وأدوات الإدارة</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
+       
 # 08 - تنفيذ وظيفة Azure Functions
 
 في هذه المعاينة، سننشئ تطبيق وظائف لعرض رسالة مرحبًا في حالة وجود طلب HTTP. 
