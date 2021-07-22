@@ -1,8 +1,31 @@
----
-wts:
-   title: '22 - فتح طلب دعم (5 دقائق)'
-   module: 'غير مستخدمة حاليًا في الامتحان الحالي'
----
+<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
+    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
+  <thead>
+  <tr>
+  <th>wts</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div><table>
+  <thead>
+  <tr>
+  <th>title</th>
+  <th>module</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div>22 - فتح طلب دعم (5 دقائق)</div></td>
+  <td><div>غير مستخدمة حاليًا في الامتحان الحالي</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
+       
 # 22 - فتح طلب دعم
 
 في هذه المعاينة، سنعرض خيارات خطة الدعم المتوفرة ثم نتدرب على إنشاء طلب دعم جديد ومراقبته.
