@@ -1,4 +1,4 @@
-<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
+﻿<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
     <article class="markdown-body entry-content container-lg" itemprop="text"><table>
   <thead>
   <tr>
@@ -26,11 +26,11 @@
   </tbody>
 </table>
        
-# 10 - إنشاء جهاز ظاهري باستخدام PowerShell
+# 10 - إنشاء جهاز ظاهري باستخدام PowerShell (10 دقائق)
 
 في هذا المعاينة، سنكوّن Cloud Shell، ونستخدم وحدة Azure PowerShell لإنشاء مجموعة موارد وجهاز ظاهري ومراجعة توصيات Azure Advisor. 
 
-# المهمة 1: تكوين Cloud Shell (10 دقائق)
+# المهمة 1: تكوين Cloud Shell 
 
 في هذه المهمة، سنكوّن Cloud Shell. 
 
@@ -40,11 +40,17 @@
 
     ![لقطة شاشة لأيقونة Azure Cloud Shell في مدخل Azure.](../images/1002.png)
 
-3. إذا كنت قد استخدمت Cloud Shell مسبقًا، فانتقل إلى المهمة التالية. 
+3. عندما يُطلب منك تحديد إما **Bash** أو **PowerShell**، حدد **PowerShell**.
 
-4. عندما يُطلب منك تحديد إما **Bash** أو **PowerShell**، حدد **PowerShell**.
+4. في شاشة **ليس لديك مساحة تخزين محمولة**، حدد **إظهار الإعدادات المتقدمة**، ثم املأ المعلومات أدناه
 
-5. عندما يُطلب منك ذلك، انقر فوق **إنشاء سعة تخزينية**، وانتظر لحين تهيئة Azure Cloud Shell. 
+    | إعدادات | القيم |
+    |  -- | -- |
+    | مجموعة الموارد | **أنشئ مجموعة موارد جديدة** |
+    | حساب التخزين (إنشاء حساب جديد واستخدام اسم فريد عالميًا (على سبيل المثال: cloudshellstoragemystorage)) | **cloudshellxxxxxxx** |
+    | مشاركة ملف (إنشاء جديد) | **shellstorage** |
+
+5. حدد **إنشاء تخزين**
 
 # المهمة 2: إنشاء مجموعة موارد وجهاز ظاهري
 
@@ -52,19 +58,13 @@
 
 1. تأكد من تحديد **PowerShell** في القائمة المنسدلة العلوية اليسرى من جزء Cloud Shell.
 
-2. في جلسة PowerShell، داخل جزء Cloud Shell، أنشئ مجموعة موارد جديدة. 
-
-    ```PowerShell
-    New-AzResourceGroup -Name myRGPS -Location EastUS
-    ```
-
-3. تحقق من مجموعة الموارد الجديدة الخاصة بك. 
+2. تحقق من مجموعة الموارد الجديدة خاصتك عن طريق تشغيل الأمر التالي في نافذة Powershell. اضغط على **إدخال** لقبول الأمر.
 
     ```PowerShell
     Get-AzResourceGroup | Format-Table
     ```
 
-4. إنشاء جهاز ظاهري. عندما يُطلب منك ذلك، قدّم اسم المستخدم (**azureuser**) وكلمة المرور (**Pa$$w0rd1234**) التي سيتم تكوينها كحساب المسؤول المحلي على تلك الأجهزة الظاهرية. تأكد من تضمين أحرف التجزئة (`) في نهاية كل سطر باستثناء آخر سطر (ينبغي ألا يكون هناك أي أحرف تجزئة عند كتابة الأمر بأكمله في سطر واحد).
+3. أنشئ جهازًا افتراضيًا عن طريق لصق الأمر التالي في نافذة النافذة الطرفية. 
 
     ```PowerShell
     New-AzVm `
@@ -76,9 +76,10 @@
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
     ```
-** انتظر لحين توزيع الجهاز الظاهري قبل إغلاق PowerShell
+    
+4. عندما يُطلب منك ذلك، قدّم اسم المستخدم (**azureuser**) وكلمة المرور (**Pa$$w0rd1234**) التي سيتم تكوينها كحساب المسؤول المحلي على تلك الأجهزة الظاهرية.azureadmin
 
-5. أغلق جزء جلسة Cloud Shell في جلسة PowerShell.
+5. بعد إنشاء الدهاز الظاهري، أغلق جزء جلسة Cloud Shell في جلسة PowerShell.
 
 6. في مدخل Azure، ابحث عن **الأجهزة الظاهرية** وتحقق من تشغيل **myVMPS**. قد يستغرق هذا بضع دقائق.
 
@@ -100,13 +101,14 @@
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
-4. أوقف الجهاز الظاهري. عندما يُطلب منك تأكيد (نعم) على الإجراء. 
+4. أوقف الجهاز الظاهري باستخدام الأمر التالي. 
 
     ```PowerShell
     Stop-AzVM -ResourceGroupName myRGPS -Name myVMPS
     ```
+5. عندما يُطلب منك تأكيد (نعم) على الإجراء. انتظر حالة **النجاح**.
 
-5. تحقق من حالة جهازك الظاهري. ينبغي الآن إلغاء تخصيص **PowerState**. يمكنك أيضًا التحقق من حالة الجهاز الظاهري في المدخل. 
+6. تحقق من حالة جهازك الظاهري. ينبغي الآن إلغاء تخصيص **PowerState**. يمكنك أيضًا التحقق من حالة الجهاز الظاهري في المدخل. أغلق Cloudshell.
 
     ```PowerShell
     Get-AzVM -name myVMPS -status | Format-Table -autosize

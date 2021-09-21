@@ -1,4 +1,4 @@
-<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
+﻿<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
     <article class="markdown-body entry-content container-lg" itemprop="text"><table>
   <thead>
   <tr>
@@ -26,7 +26,7 @@
   </tbody>
 </table>
        
-# 21 - حساب اتفاقيات مستوى الخدمة المركبة
+# 21 - حساب اتفاقيات مستوى الخدمة المركبة (5 دقائق)
 
 في هذه المعاينة، سنحدد مدى توفر اتفاقية مستوى الخدمة لخدمات Azure ثم نحسب التوفر المتوقع المستند إلى اتفاقية مستوى الخدمة المركبة للتطبيق.
 
@@ -37,7 +37,7 @@
 + **بوابة التطبيق**: لإدارة الوصول إلى التطبيق والتحجيم. 
 + **قاعدة بيانات Azure SQL**: لتخزين بيانات التطبيق. 
 
-# المهمة 1: تحديد قيم النسبة المئوية لوقت تشغيل اتفاقية مستوى الخدمة للتطبيق (5 دقائق)
+# المهمة 1: تحديد قيم النسبة المئوية لوقت تشغيل اتفاقية مستوى الخدمة للتطبيق
 
 1. في المستعرض، انتقل إلى صفحة [ملخص اتفاقية مستوى الخدمة لخدمات Azure](https://azure.microsoft.com/ar-sa/support/legal/sla/summary/).
 

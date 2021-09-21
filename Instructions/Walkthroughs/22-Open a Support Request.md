@@ -1,4 +1,4 @@
-<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
+﻿<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
     <article class="markdown-body entry-content container-lg" itemprop="text"><table>
   <thead>
   <tr>
@@ -26,11 +26,11 @@
   </tbody>
 </table>
        
-# 22 - فتح طلب دعم
+# 22 - فتح طلب دعم (5 دقائق)
 
 في هذه المعاينة، سنعرض خيارات خطة الدعم المتوفرة ثم نتدرب على إنشاء طلب دعم جديد ومراقبته.
 
-# المهمة 1: عرض خيارات خطة الدعم المتوفرة وطلب الدعم التقني (5 دقائق)
+# المهمة 1: عرض خيارات خطة الدعم المتوفرة وطلب الدعم التقني
 
 1. تسجيل الدخول إلى [**مدخل Azure**](https://portal.azure.com).
 
@@ -67,7 +67,6 @@
     | الملخص | **الرسوم الشهرية غير صحيحة** |
     | نوع المشكلة | **الأسعار** |
     | النوع الفرعي للمشكلة | **ساعدني في اكتشاف أسعار الخدمة** |    
-    | | |
 
 2. انقر فوق **التالي: الحلول** واقرأ الحلول الموصى بها.
 
